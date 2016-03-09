@@ -3,8 +3,8 @@ MAINTAINER Alberto Gregoris <alberto@showtimeanalytics.com>
 
 #Set environment
 ENV JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=66 \
-    JAVA_VERSION_BUILD=17 \
+    JAVA_VERSION_MINOR=51 \
+    JAVA_VERSION_BUILD=16 \
     JAVA_PACKAGE=jdk
 ENV JAVA_HOME /opt/${JAVA_PACKAGE} 
 ENV PATH=${PATH}:${JAVA_HOME}/bin
